@@ -1,0 +1,600 @@
+The itemset 'service' occurs in 40% of cases in the dataset.
+The rule 'service -> national' holds in 100% these cases.
+
+The itemset 'national' occurs in 40% of cases in the dataset.
+The rule 'national -> service' holds in 40% these cases.
+
+The itemset 'service' occurs in 40% of cases in the dataset.
+The rule 'service -> national work' holds in 100% these cases.
+
+The itemset 'service national' occurs in 40% of cases in the dataset.
+The rule 'service national -> work' holds in 100% these cases.
+
+The itemset 'service work' occurs in 40% of cases in the dataset.
+The rule 'service work -> national' holds in 100% these cases.
+
+The itemset 'national' occurs in 40% of cases in the dataset.
+The rule 'national -> service work' holds in 40% these cases.
+
+The itemset 'national work' occurs in 40% of cases in the dataset.
+The rule 'national work -> service' holds in 44% these cases.
+
+The itemset 'work' occurs in 40% of cases in the dataset.
+The rule 'work -> service national' holds in 44% these cases.
+
+The itemset 'service' occurs in 40% of cases in the dataset.
+The rule 'service -> work' holds in 100% these cases.
+
+The itemset 'work' occurs in 40% of cases in the dataset.
+The rule 'work -> service' holds in 44% these cases.
+
+The itemset 'care' occurs in 40% of cases in the dataset.
+The rule 'care -> national' holds in 100% these cases.
+
+The itemset 'national' occurs in 40% of cases in the dataset.
+The rule 'national -> care' holds in 40% these cases.
+
+The itemset 'care' occurs in 40% of cases in the dataset.
+The rule 'care -> national work' holds in 100% these cases.
+
+The itemset 'care national' occurs in 40% of cases in the dataset.
+The rule 'care national -> work' holds in 100% these cases.
+
+The itemset 'care work' occurs in 40% of cases in the dataset.
+The rule 'care work -> national' holds in 100% these cases.
+
+The itemset 'national' occurs in 40% of cases in the dataset.
+The rule 'national -> care work' holds in 40% these cases.
+
+The itemset 'national work' occurs in 40% of cases in the dataset.
+The rule 'national work -> care' holds in 44% these cases.
+
+The itemset 'work' occurs in 40% of cases in the dataset.
+The rule 'work -> care national' holds in 44% these cases.
+
+The itemset 'care' occurs in 40% of cases in the dataset.
+The rule 'care -> work' holds in 100% these cases.
+
+The itemset 'work' occurs in 40% of cases in the dataset.
+The rule 'work -> care' holds in 44% these cases.
+
+The itemset 'health' occurs in 70% of cases in the dataset.
+The rule 'health -> national' holds in 100% these cases.
+
+The itemset 'national' occurs in 70% of cases in the dataset.
+The rule 'national -> health' holds in 70% these cases.
+
+The itemset 'health' occurs in 60% of cases in the dataset.
+The rule 'health -> national federal' holds in 86% these cases.
+
+The itemset 'health national' occurs in 60% of cases in the dataset.
+The rule 'health national -> federal' holds in 86% these cases.
+
+The itemset 'health federal' occurs in 60% of cases in the dataset.
+The rule 'health federal -> national' holds in 100% these cases.
+
+The itemset 'national' occurs in 60% of cases in the dataset.
+The rule 'national -> health federal' holds in 60% these cases.
+
+The itemset 'national federal' occurs in 60% of cases in the dataset.
+The rule 'national federal -> health' holds in 75% these cases.
+
+The itemset 'federal' occurs in 60% of cases in the dataset.
+The rule 'federal -> health national' holds in 75% these cases.
+
+The itemset 'health' occurs in 60% of cases in the dataset.
+The rule 'health -> national federal work' holds in 86% these cases.
+
+The itemset 'health national' occurs in 60% of cases in the dataset.
+The rule 'health national -> federal work' holds in 86% these cases.
+
+The itemset 'health national federal' occurs in 60% of cases in the dataset.
+The rule 'health national federal -> work' holds in 100% these cases.
+
+The itemset 'health national work' occurs in 60% of cases in the dataset.
+The rule 'health national work -> federal' holds in 100% these cases.
+
+The itemset 'health federal' occurs in 60% of cases in the dataset.
+The rule 'health federal -> national work' holds in 100% these cases.
+
+The itemset 'health federal work' occurs in 60% of cases in the dataset.
+The rule 'health federal work -> national' holds in 100% these cases.
+
+The itemset 'health work' occurs in 60% of cases in the dataset.
+The rule 'health work -> national federal' holds in 100% these cases.
+
+The itemset 'national' occurs in 60% of cases in the dataset.
+The rule 'national -> health federal work' holds in 60% these cases.
+
+The itemset 'national federal' occurs in 60% of cases in the dataset.
+The rule 'national federal -> health work' holds in 75% these cases.
+
+The itemset 'national federal work' occurs in 60% of cases in the dataset.
+The rule 'national federal work -> health' holds in 75% these cases.
+
+The itemset 'national work' occurs in 60% of cases in the dataset.
+The rule 'national work -> health federal' holds in 67% these cases.
+
+The itemset 'federal' occurs in 60% of cases in the dataset.
+The rule 'federal -> health national work' holds in 75% these cases.
+
+The itemset 'federal work' occurs in 60% of cases in the dataset.
+The rule 'federal work -> health national' holds in 75% these cases.
+
+The itemset 'work' occurs in 60% of cases in the dataset.
+The rule 'work -> health national federal' holds in 67% these cases.
+
+The itemset 'health' occurs in 50% of cases in the dataset.
+The rule 'health -> national federal work security' holds in 71% these cases.
+
+The itemset 'health national' occurs in 50% of cases in the dataset.
+The rule 'health national -> federal work security' holds in 71% these cases.
+
+The itemset 'health national federal' occurs in 50% of cases in the dataset.
+The rule 'health national federal -> work security' holds in 83% these cases.
+
+The itemset 'health national federal work' occurs in 50% of cases in the dataset.
+The rule 'health national federal work -> security' holds in 83% these cases.
+
+The itemset 'health national federal security' occurs in 50% of cases in the dataset.
+The rule 'health national federal security -> work' holds in 100% these cases.
+
+The itemset 'health national work' occurs in 50% of cases in the dataset.
+The rule 'health national work -> federal security' holds in 83% these cases.
+
+The itemset 'health national work security' occurs in 50% of cases in the dataset.
+The rule 'health national work security -> federal' holds in 100% these cases.
+
+The itemset 'health national security' occurs in 50% of cases in the dataset.
+The rule 'health national security -> federal work' holds in 83% these cases.
+
+The itemset 'health federal' occurs in 50% of cases in the dataset.
+The rule 'health federal -> national work security' holds in 83% these cases.
+
+The itemset 'health federal work' occurs in 50% of cases in the dataset.
+The rule 'health federal work -> national security' holds in 83% these cases.
+
+The itemset 'health federal work security' occurs in 50% of cases in the dataset.
+The rule 'health federal work security -> national' holds in 100% these cases.
+
+The itemset 'health federal security' occurs in 50% of cases in the dataset.
+The rule 'health federal security -> national work' holds in 100% these cases.
+
+The itemset 'health work' occurs in 50% of cases in the dataset.
+The rule 'health work -> national federal security' holds in 83% these cases.
+
+The itemset 'health work security' occurs in 50% of cases in the dataset.
+The rule 'health work security -> national federal' holds in 100% these cases.
+
+The itemset 'health security' occurs in 50% of cases in the dataset.
+The rule 'health security -> national federal work' holds in 83% these cases.
+
+The itemset 'national' occurs in 50% of cases in the dataset.
+The rule 'national -> health federal work security' holds in 50% these cases.
+
+The itemset 'national federal' occurs in 50% of cases in the dataset.
+The rule 'national federal -> health work security' holds in 62% these cases.
+
+The itemset 'national federal work' occurs in 50% of cases in the dataset.
+The rule 'national federal work -> health security' holds in 62% these cases.
+
+The itemset 'national federal work security' occurs in 50% of cases in the dataset.
+The rule 'national federal work security -> health' holds in 83% these cases.
+
+The itemset 'national federal security' occurs in 50% of cases in the dataset.
+The rule 'national federal security -> health work' holds in 83% these cases.
+
+The itemset 'national work' occurs in 50% of cases in the dataset.
+The rule 'national work -> health federal security' holds in 56% these cases.
+
+The itemset 'national work security' occurs in 50% of cases in the dataset.
+The rule 'national work security -> health federal' holds in 83% these cases.
+
+The itemset 'national security' occurs in 50% of cases in the dataset.
+The rule 'national security -> health federal work' holds in 71% these cases.
+
+The itemset 'federal' occurs in 50% of cases in the dataset.
+The rule 'federal -> health national work security' holds in 62% these cases.
+
+The itemset 'federal work' occurs in 50% of cases in the dataset.
+The rule 'federal work -> health national security' holds in 62% these cases.
+
+The itemset 'federal work security' occurs in 50% of cases in the dataset.
+The rule 'federal work security -> health national' holds in 83% these cases.
+
+The itemset 'federal security' occurs in 50% of cases in the dataset.
+The rule 'federal security -> health national work' holds in 83% these cases.
+
+The itemset 'work' occurs in 50% of cases in the dataset.
+The rule 'work -> health national federal security' holds in 56% these cases.
+
+The itemset 'work security' occurs in 50% of cases in the dataset.
+The rule 'work security -> health national federal' holds in 83% these cases.
+
+The itemset 'security' occurs in 50% of cases in the dataset.
+The rule 'security -> health national federal work' holds in 71% these cases.
+
+The itemset 'health' occurs in 50% of cases in the dataset.
+The rule 'health -> national federal security' holds in 71% these cases.
+
+The itemset 'health national' occurs in 50% of cases in the dataset.
+The rule 'health national -> federal security' holds in 71% these cases.
+
+The itemset 'health national federal' occurs in 50% of cases in the dataset.
+The rule 'health national federal -> security' holds in 83% these cases.
+
+The itemset 'health national security' occurs in 50% of cases in the dataset.
+The rule 'health national security -> federal' holds in 83% these cases.
+
+The itemset 'health federal' occurs in 50% of cases in the dataset.
+The rule 'health federal -> national security' holds in 83% these cases.
+
+The itemset 'health federal security' occurs in 50% of cases in the dataset.
+The rule 'health federal security -> national' holds in 100% these cases.
+
+The itemset 'health security' occurs in 50% of cases in the dataset.
+The rule 'health security -> national federal' holds in 83% these cases.
+
+The itemset 'national' occurs in 50% of cases in the dataset.
+The rule 'national -> health federal security' holds in 50% these cases.
+
+The itemset 'national federal' occurs in 50% of cases in the dataset.
+The rule 'national federal -> health security' holds in 62% these cases.
+
+The itemset 'national federal security' occurs in 50% of cases in the dataset.
+The rule 'national federal security -> health' holds in 83% these cases.
+
+The itemset 'national security' occurs in 50% of cases in the dataset.
+The rule 'national security -> health federal' holds in 71% these cases.
+
+The itemset 'federal' occurs in 50% of cases in the dataset.
+The rule 'federal -> health national security' holds in 62% these cases.
+
+The itemset 'federal security' occurs in 50% of cases in the dataset.
+The rule 'federal security -> health national' holds in 83% these cases.
+
+The itemset 'security' occurs in 50% of cases in the dataset.
+The rule 'security -> health national federal' holds in 71% these cases.
+
+The itemset 'health' occurs in 60% of cases in the dataset.
+The rule 'health -> national work' holds in 86% these cases.
+
+The itemset 'health national' occurs in 60% of cases in the dataset.
+The rule 'health national -> work' holds in 86% these cases.
+
+The itemset 'health work' occurs in 60% of cases in the dataset.
+The rule 'health work -> national' holds in 100% these cases.
+
+The itemset 'national' occurs in 60% of cases in the dataset.
+The rule 'national -> health work' holds in 60% these cases.
+
+The itemset 'national work' occurs in 60% of cases in the dataset.
+The rule 'national work -> health' holds in 67% these cases.
+
+The itemset 'work' occurs in 60% of cases in the dataset.
+The rule 'work -> health national' holds in 67% these cases.
+
+The itemset 'health' occurs in 50% of cases in the dataset.
+The rule 'health -> national work security' holds in 71% these cases.
+
+The itemset 'health national' occurs in 50% of cases in the dataset.
+The rule 'health national -> work security' holds in 71% these cases.
+
+The itemset 'health national work' occurs in 50% of cases in the dataset.
+The rule 'health national work -> security' holds in 83% these cases.
+
+The itemset 'health national security' occurs in 50% of cases in the dataset.
+The rule 'health national security -> work' holds in 83% these cases.
+
+The itemset 'health work' occurs in 50% of cases in the dataset.
+The rule 'health work -> national security' holds in 83% these cases.
+
+The itemset 'health work security' occurs in 50% of cases in the dataset.
+The rule 'health work security -> national' holds in 100% these cases.
+
+The itemset 'health security' occurs in 50% of cases in the dataset.
+The rule 'health security -> national work' holds in 83% these cases.
+
+The itemset 'national' occurs in 50% of cases in the dataset.
+The rule 'national -> health work security' holds in 50% these cases.
+
+The itemset 'national work' occurs in 50% of cases in the dataset.
+The rule 'national work -> health security' holds in 56% these cases.
+
+The itemset 'national work security' occurs in 50% of cases in the dataset.
+The rule 'national work security -> health' holds in 83% these cases.
+
+The itemset 'national security' occurs in 50% of cases in the dataset.
+The rule 'national security -> health work' holds in 71% these cases.
+
+The itemset 'work' occurs in 50% of cases in the dataset.
+The rule 'work -> health national security' holds in 56% these cases.
+
+The itemset 'work security' occurs in 50% of cases in the dataset.
+The rule 'work security -> health national' holds in 83% these cases.
+
+The itemset 'security' occurs in 50% of cases in the dataset.
+The rule 'security -> health national work' holds in 71% these cases.
+
+The itemset 'health' occurs in 60% of cases in the dataset.
+The rule 'health -> national security' holds in 86% these cases.
+
+The itemset 'health national' occurs in 60% of cases in the dataset.
+The rule 'health national -> security' holds in 86% these cases.
+
+The itemset 'health security' occurs in 60% of cases in the dataset.
+The rule 'health security -> national' holds in 100% these cases.
+
+The itemset 'national' occurs in 60% of cases in the dataset.
+The rule 'national -> health security' holds in 60% these cases.
+
+The itemset 'national security' occurs in 60% of cases in the dataset.
+The rule 'national security -> health' holds in 86% these cases.
+
+The itemset 'security' occurs in 60% of cases in the dataset.
+The rule 'security -> health national' holds in 86% these cases.
+
+The itemset 'health' occurs in 60% of cases in the dataset.
+The rule 'health -> federal' holds in 86% these cases.
+
+The itemset 'federal' occurs in 60% of cases in the dataset.
+The rule 'federal -> health' holds in 75% these cases.
+
+The itemset 'health' occurs in 60% of cases in the dataset.
+The rule 'health -> federal work' holds in 86% these cases.
+
+The itemset 'health federal' occurs in 60% of cases in the dataset.
+The rule 'health federal -> work' holds in 100% these cases.
+
+The itemset 'health work' occurs in 60% of cases in the dataset.
+The rule 'health work -> federal' holds in 100% these cases.
+
+The itemset 'federal' occurs in 60% of cases in the dataset.
+The rule 'federal -> health work' holds in 75% these cases.
+
+The itemset 'federal work' occurs in 60% of cases in the dataset.
+The rule 'federal work -> health' holds in 75% these cases.
+
+The itemset 'work' occurs in 60% of cases in the dataset.
+The rule 'work -> health federal' holds in 67% these cases.
+
+The itemset 'health' occurs in 50% of cases in the dataset.
+The rule 'health -> federal work security' holds in 71% these cases.
+
+The itemset 'health federal' occurs in 50% of cases in the dataset.
+The rule 'health federal -> work security' holds in 83% these cases.
+
+The itemset 'health federal work' occurs in 50% of cases in the dataset.
+The rule 'health federal work -> security' holds in 83% these cases.
+
+The itemset 'health federal security' occurs in 50% of cases in the dataset.
+The rule 'health federal security -> work' holds in 100% these cases.
+
+The itemset 'health work' occurs in 50% of cases in the dataset.
+The rule 'health work -> federal security' holds in 83% these cases.
+
+The itemset 'health work security' occurs in 50% of cases in the dataset.
+The rule 'health work security -> federal' holds in 100% these cases.
+
+The itemset 'health security' occurs in 50% of cases in the dataset.
+The rule 'health security -> federal work' holds in 83% these cases.
+
+The itemset 'federal' occurs in 50% of cases in the dataset.
+The rule 'federal -> health work security' holds in 62% these cases.
+
+The itemset 'federal work' occurs in 50% of cases in the dataset.
+The rule 'federal work -> health security' holds in 62% these cases.
+
+The itemset 'federal work security' occurs in 50% of cases in the dataset.
+The rule 'federal work security -> health' holds in 83% these cases.
+
+The itemset 'federal security' occurs in 50% of cases in the dataset.
+The rule 'federal security -> health work' holds in 83% these cases.
+
+The itemset 'work' occurs in 50% of cases in the dataset.
+The rule 'work -> health federal security' holds in 56% these cases.
+
+The itemset 'work security' occurs in 50% of cases in the dataset.
+The rule 'work security -> health federal' holds in 83% these cases.
+
+The itemset 'security' occurs in 50% of cases in the dataset.
+The rule 'security -> health federal work' holds in 71% these cases.
+
+The itemset 'health' occurs in 50% of cases in the dataset.
+The rule 'health -> federal security' holds in 71% these cases.
+
+The itemset 'health federal' occurs in 50% of cases in the dataset.
+The rule 'health federal -> security' holds in 83% these cases.
+
+The itemset 'health security' occurs in 50% of cases in the dataset.
+The rule 'health security -> federal' holds in 83% these cases.
+
+The itemset 'federal' occurs in 50% of cases in the dataset.
+The rule 'federal -> health security' holds in 62% these cases.
+
+The itemset 'federal security' occurs in 50% of cases in the dataset.
+The rule 'federal security -> health' holds in 83% these cases.
+
+The itemset 'security' occurs in 50% of cases in the dataset.
+The rule 'security -> health federal' holds in 71% these cases.
+
+The itemset 'health' occurs in 60% of cases in the dataset.
+The rule 'health -> work' holds in 86% these cases.
+
+The itemset 'work' occurs in 60% of cases in the dataset.
+The rule 'work -> health' holds in 67% these cases.
+
+The itemset 'health' occurs in 50% of cases in the dataset.
+The rule 'health -> work security' holds in 71% these cases.
+
+The itemset 'health work' occurs in 50% of cases in the dataset.
+The rule 'health work -> security' holds in 83% these cases.
+
+The itemset 'health security' occurs in 50% of cases in the dataset.
+The rule 'health security -> work' holds in 83% these cases.
+
+The itemset 'work' occurs in 50% of cases in the dataset.
+The rule 'work -> health security' holds in 56% these cases.
+
+The itemset 'work security' occurs in 50% of cases in the dataset.
+The rule 'work security -> health' holds in 83% these cases.
+
+The itemset 'security' occurs in 50% of cases in the dataset.
+The rule 'security -> health work' holds in 71% these cases.
+
+The itemset 'health' occurs in 60% of cases in the dataset.
+The rule 'health -> security' holds in 86% these cases.
+
+The itemset 'security' occurs in 60% of cases in the dataset.
+The rule 'security -> health' holds in 86% these cases.
+
+The itemset 'national' occurs in 80% of cases in the dataset.
+The rule 'national -> federal' holds in 80% these cases.
+
+The itemset 'federal' occurs in 80% of cases in the dataset.
+The rule 'federal -> national' holds in 100% these cases.
+
+The itemset 'national' occurs in 80% of cases in the dataset.
+The rule 'national -> federal work' holds in 80% these cases.
+
+The itemset 'national federal' occurs in 80% of cases in the dataset.
+The rule 'national federal -> work' holds in 100% these cases.
+
+The itemset 'national work' occurs in 80% of cases in the dataset.
+The rule 'national work -> federal' holds in 89% these cases.
+
+The itemset 'federal' occurs in 80% of cases in the dataset.
+The rule 'federal -> national work' holds in 100% these cases.
+
+The itemset 'federal work' occurs in 80% of cases in the dataset.
+The rule 'federal work -> national' holds in 100% these cases.
+
+The itemset 'work' occurs in 80% of cases in the dataset.
+The rule 'work -> national federal' holds in 89% these cases.
+
+The itemset 'national' occurs in 60% of cases in the dataset.
+The rule 'national -> federal work security' holds in 60% these cases.
+
+The itemset 'national federal' occurs in 60% of cases in the dataset.
+The rule 'national federal -> work security' holds in 75% these cases.
+
+The itemset 'national federal work' occurs in 60% of cases in the dataset.
+The rule 'national federal work -> security' holds in 75% these cases.
+
+The itemset 'national federal security' occurs in 60% of cases in the dataset.
+The rule 'national federal security -> work' holds in 100% these cases.
+
+The itemset 'national work' occurs in 60% of cases in the dataset.
+The rule 'national work -> federal security' holds in 67% these cases.
+
+The itemset 'national work security' occurs in 60% of cases in the dataset.
+The rule 'national work security -> federal' holds in 100% these cases.
+
+The itemset 'national security' occurs in 60% of cases in the dataset.
+The rule 'national security -> federal work' holds in 86% these cases.
+
+The itemset 'federal' occurs in 60% of cases in the dataset.
+The rule 'federal -> national work security' holds in 75% these cases.
+
+The itemset 'federal work' occurs in 60% of cases in the dataset.
+The rule 'federal work -> national security' holds in 75% these cases.
+
+The itemset 'federal work security' occurs in 60% of cases in the dataset.
+The rule 'federal work security -> national' holds in 100% these cases.
+
+The itemset 'federal security' occurs in 60% of cases in the dataset.
+The rule 'federal security -> national work' holds in 100% these cases.
+
+The itemset 'work' occurs in 60% of cases in the dataset.
+The rule 'work -> national federal security' holds in 67% these cases.
+
+The itemset 'work security' occurs in 60% of cases in the dataset.
+The rule 'work security -> national federal' holds in 100% these cases.
+
+The itemset 'security' occurs in 60% of cases in the dataset.
+The rule 'security -> national federal work' holds in 86% these cases.
+
+The itemset 'national' occurs in 60% of cases in the dataset.
+The rule 'national -> federal security' holds in 60% these cases.
+
+The itemset 'national federal' occurs in 60% of cases in the dataset.
+The rule 'national federal -> security' holds in 75% these cases.
+
+The itemset 'national security' occurs in 60% of cases in the dataset.
+The rule 'national security -> federal' holds in 86% these cases.
+
+The itemset 'federal' occurs in 60% of cases in the dataset.
+The rule 'federal -> national security' holds in 75% these cases.
+
+The itemset 'federal security' occurs in 60% of cases in the dataset.
+The rule 'federal security -> national' holds in 100% these cases.
+
+The itemset 'security' occurs in 60% of cases in the dataset.
+The rule 'security -> national federal' holds in 86% these cases.
+
+The itemset 'national' occurs in 90% of cases in the dataset.
+The rule 'national -> work' holds in 90% these cases.
+
+The itemset 'work' occurs in 90% of cases in the dataset.
+The rule 'work -> national' holds in 100% these cases.
+
+The itemset 'national' occurs in 60% of cases in the dataset.
+The rule 'national -> work security' holds in 60% these cases.
+
+The itemset 'national work' occurs in 60% of cases in the dataset.
+The rule 'national work -> security' holds in 67% these cases.
+
+The itemset 'national security' occurs in 60% of cases in the dataset.
+The rule 'national security -> work' holds in 86% these cases.
+
+The itemset 'work' occurs in 60% of cases in the dataset.
+The rule 'work -> national security' holds in 67% these cases.
+
+The itemset 'work security' occurs in 60% of cases in the dataset.
+The rule 'work security -> national' holds in 100% these cases.
+
+The itemset 'security' occurs in 60% of cases in the dataset.
+The rule 'security -> national work' holds in 86% these cases.
+
+The itemset 'national' occurs in 70% of cases in the dataset.
+The rule 'national -> security' holds in 70% these cases.
+
+The itemset 'security' occurs in 70% of cases in the dataset.
+The rule 'security -> national' holds in 100% these cases.
+
+The itemset 'federal' occurs in 80% of cases in the dataset.
+The rule 'federal -> work' holds in 100% these cases.
+
+The itemset 'work' occurs in 80% of cases in the dataset.
+The rule 'work -> federal' holds in 89% these cases.
+
+The itemset 'federal' occurs in 60% of cases in the dataset.
+The rule 'federal -> work security' holds in 75% these cases.
+
+The itemset 'federal work' occurs in 60% of cases in the dataset.
+The rule 'federal work -> security' holds in 75% these cases.
+
+The itemset 'federal security' occurs in 60% of cases in the dataset.
+The rule 'federal security -> work' holds in 100% these cases.
+
+The itemset 'work' occurs in 60% of cases in the dataset.
+The rule 'work -> federal security' holds in 67% these cases.
+
+The itemset 'work security' occurs in 60% of cases in the dataset.
+The rule 'work security -> federal' holds in 100% these cases.
+
+The itemset 'security' occurs in 60% of cases in the dataset.
+The rule 'security -> federal work' holds in 86% these cases.
+
+The itemset 'federal' occurs in 60% of cases in the dataset.
+The rule 'federal -> security' holds in 75% these cases.
+
+The itemset 'security' occurs in 60% of cases in the dataset.
+The rule 'security -> federal' holds in 86% these cases.
+
+The itemset 'work' occurs in 60% of cases in the dataset.
+The rule 'work -> security' holds in 67% these cases.
+
+The itemset 'security' occurs in 60% of cases in the dataset.
+The rule 'security -> work' holds in 86% these cases.
+
