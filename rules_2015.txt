@@ -1,0 +1,200 @@
+0.400   1.000   service -> national
+0.400   0.400   national -> service
+0.400   1.000   service -> national work
+0.400   1.000   service national -> work
+0.400   1.000   service work -> national
+0.400   0.400   national -> service work
+0.400   0.444   national work -> service
+0.400   0.444   work -> service national
+0.400   1.000   service -> work
+0.400   0.444   work -> service
+0.400   1.000   care -> national
+0.400   0.400   national -> care
+0.400   1.000   care -> national work
+0.400   1.000   care national -> work
+0.400   1.000   care work -> national
+0.400   0.400   national -> care work
+0.400   0.444   national work -> care
+0.400   0.444   work -> care national
+0.400   1.000   care -> work
+0.400   0.444   work -> care
+0.700   1.000   health -> national
+0.700   0.700   national -> health
+0.600   0.857   health -> national federal
+0.600   0.857   health national -> federal
+0.600   1.000   health federal -> national
+0.600   0.600   national -> health federal
+0.600   0.750   national federal -> health
+0.600   0.750   federal -> health national
+0.600   0.857   health -> national federal work
+0.600   0.857   health national -> federal work
+0.600   1.000   health national federal -> work
+0.600   1.000   health national work -> federal
+0.600   1.000   health federal -> national work
+0.600   1.000   health federal work -> national
+0.600   1.000   health work -> national federal
+0.600   0.600   national -> health federal work
+0.600   0.750   national federal -> health work
+0.600   0.750   national federal work -> health
+0.600   0.667   national work -> health federal
+0.600   0.750   federal -> health national work
+0.600   0.750   federal work -> health national
+0.600   0.667   work -> health national federal
+0.500   0.714   health -> national federal work security
+0.500   0.714   health national -> federal work security
+0.500   0.833   health national federal -> work security
+0.500   0.833   health national federal work -> security
+0.500   1.000   health national federal security -> work
+0.500   0.833   health national work -> federal security
+0.500   1.000   health national work security -> federal
+0.500   0.833   health national security -> federal work
+0.500   0.833   health federal -> national work security
+0.500   0.833   health federal work -> national security
+0.500   1.000   health federal work security -> national
+0.500   1.000   health federal security -> national work
+0.500   0.833   health work -> national federal security
+0.500   1.000   health work security -> national federal
+0.500   0.833   health security -> national federal work
+0.500   0.500   national -> health federal work security
+0.500   0.625   national federal -> health work security
+0.500   0.625   national federal work -> health security
+0.500   0.833   national federal work security -> health
+0.500   0.833   national federal security -> health work
+0.500   0.556   national work -> health federal security
+0.500   0.833   national work security -> health federal
+0.500   0.714   national security -> health federal work
+0.500   0.625   federal -> health national work security
+0.500   0.625   federal work -> health national security
+0.500   0.833   federal work security -> health national
+0.500   0.833   federal security -> health national work
+0.500   0.556   work -> health national federal security
+0.500   0.833   work security -> health national federal
+0.500   0.714   security -> health national federal work
+0.500   0.714   health -> national federal security
+0.500   0.714   health national -> federal security
+0.500   0.833   health national federal -> security
+0.500   0.833   health national security -> federal
+0.500   0.833   health federal -> national security
+0.500   1.000   health federal security -> national
+0.500   0.833   health security -> national federal
+0.500   0.500   national -> health federal security
+0.500   0.625   national federal -> health security
+0.500   0.833   national federal security -> health
+0.500   0.714   national security -> health federal
+0.500   0.625   federal -> health national security
+0.500   0.833   federal security -> health national
+0.500   0.714   security -> health national federal
+0.600   0.857   health -> national work
+0.600   0.857   health national -> work
+0.600   1.000   health work -> national
+0.600   0.600   national -> health work
+0.600   0.667   national work -> health
+0.600   0.667   work -> health national
+0.500   0.714   health -> national work security
+0.500   0.714   health national -> work security
+0.500   0.833   health national work -> security
+0.500   0.833   health national security -> work
+0.500   0.833   health work -> national security
+0.500   1.000   health work security -> national
+0.500   0.833   health security -> national work
+0.500   0.500   national -> health work security
+0.500   0.556   national work -> health security
+0.500   0.833   national work security -> health
+0.500   0.714   national security -> health work
+0.500   0.556   work -> health national security
+0.500   0.833   work security -> health national
+0.500   0.714   security -> health national work
+0.600   0.857   health -> national security
+0.600   0.857   health national -> security
+0.600   1.000   health security -> national
+0.600   0.600   national -> health security
+0.600   0.857   national security -> health
+0.600   0.857   security -> health national
+0.600   0.857   health -> federal
+0.600   0.750   federal -> health
+0.600   0.857   health -> federal work
+0.600   1.000   health federal -> work
+0.600   1.000   health work -> federal
+0.600   0.750   federal -> health work
+0.600   0.750   federal work -> health
+0.600   0.667   work -> health federal
+0.500   0.714   health -> federal work security
+0.500   0.833   health federal -> work security
+0.500   0.833   health federal work -> security
+0.500   1.000   health federal security -> work
+0.500   0.833   health work -> federal security
+0.500   1.000   health work security -> federal
+0.500   0.833   health security -> federal work
+0.500   0.625   federal -> health work security
+0.500   0.625   federal work -> health security
+0.500   0.833   federal work security -> health
+0.500   0.833   federal security -> health work
+0.500   0.556   work -> health federal security
+0.500   0.833   work security -> health federal
+0.500   0.714   security -> health federal work
+0.500   0.714   health -> federal security
+0.500   0.833   health federal -> security
+0.500   0.833   health security -> federal
+0.500   0.625   federal -> health security
+0.500   0.833   federal security -> health
+0.500   0.714   security -> health federal
+0.600   0.857   health -> work
+0.600   0.667   work -> health
+0.500   0.714   health -> work security
+0.500   0.833   health work -> security
+0.500   0.833   health security -> work
+0.500   0.556   work -> health security
+0.500   0.833   work security -> health
+0.500   0.714   security -> health work
+0.600   0.857   health -> security
+0.600   0.857   security -> health
+0.800   0.800   national -> federal
+0.800   1.000   federal -> national
+0.800   0.800   national -> federal work
+0.800   1.000   national federal -> work
+0.800   0.889   national work -> federal
+0.800   1.000   federal -> national work
+0.800   1.000   federal work -> national
+0.800   0.889   work -> national federal
+0.600   0.600   national -> federal work security
+0.600   0.750   national federal -> work security
+0.600   0.750   national federal work -> security
+0.600   1.000   national federal security -> work
+0.600   0.667   national work -> federal security
+0.600   1.000   national work security -> federal
+0.600   0.857   national security -> federal work
+0.600   0.750   federal -> national work security
+0.600   0.750   federal work -> national security
+0.600   1.000   federal work security -> national
+0.600   1.000   federal security -> national work
+0.600   0.667   work -> national federal security
+0.600   1.000   work security -> national federal
+0.600   0.857   security -> national federal work
+0.600   0.600   national -> federal security
+0.600   0.750   national federal -> security
+0.600   0.857   national security -> federal
+0.600   0.750   federal -> national security
+0.600   1.000   federal security -> national
+0.600   0.857   security -> national federal
+0.900   0.900   national -> work
+0.900   1.000   work -> national
+0.600   0.600   national -> work security
+0.600   0.667   national work -> security
+0.600   0.857   national security -> work
+0.600   0.667   work -> national security
+0.600   1.000   work security -> national
+0.600   0.857   security -> national work
+0.700   0.700   national -> security
+0.700   1.000   security -> national
+0.800   1.000   federal -> work
+0.800   0.889   work -> federal
+0.600   0.750   federal -> work security
+0.600   0.750   federal work -> security
+0.600   1.000   federal security -> work
+0.600   0.667   work -> federal security
+0.600   1.000   work security -> federal
+0.600   0.857   security -> federal work
+0.600   0.750   federal -> security
+0.600   0.857   security -> federal
+0.600   0.667   work -> security
+0.600   0.857   security -> work
