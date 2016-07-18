@@ -5,7 +5,8 @@ Sunlight Data Exploration Project
 Written in Python (x,y) with Python 2.7.10
 """
 import sunlight
-sunlight.config.API_KEY = '9608bed231ee424080b2eb35f14ba41a'                                             
+sunlight.config.API_KEY = """enter your own sunlight API Key here, which can be obtained from 
+                          https://sunlightfoundation.com/api/accounts/register/ """
 
 """The list of strings below, irrelevant_words, is something that I am
 compiling manually as I explore the Capitol Words data, as a means of
@@ -31,7 +32,7 @@ irrelevant_words = ['that','is','for','we','this','it','have','are',
                     'secretary','title','general','good','people',
                     'states','united','congress','american','federal'
                     'national','country','resolution','law',
-                    'government','proposed']
+                    'government','proposed', '8']
 
 """words_by_month is my function to simplify the process of gathering the
 phrase data, pulling what I want from it, and filtering/formatting it. The 
@@ -122,12 +123,68 @@ basket_file = open('Phrases_2015.basket','w+')
 basket_file.write("\n".join(top_words))
 basket_file.close()
 
-"""I'll keep this here for now as a reminder in case I do decide to add 
-functionality that requires the counts for each word"""
-count_ex = []
-countlist = sunlight.capitolwords.phrases(entity_type = 'month',
-                                         entity_value = '201501',
-                                         n = 1,
+"""A function included in case the counts for each individual word are required"""
+def counts_by_month(month, only_relevant_words = False,
+                    orw_list = irrelevant_words,
+                    phrase_size = 1):
+    countlist = sunlight.capitolwords.phrases(entity_type = 'month',
+                                         entity_value = month,
+                                         n = phrase_size,
                                          sort = 'count desc')
-for item in countlist:
-    count_ex.append(item['count'])  
+    counts = []
+    if only_relevant_words == False:
+        for item in countlist:
+            counts.append(item['count'])
+    else:
+        for item in countlist:
+            if item['ngram'] not in orw_list:
+                  counts.append(item['count'])
+    return counts
+    
+  """unused function to be used when analyzing most frequently used words by 
+  legislator, instead of by month, across all legislators"""
+  def words_by_legislator(legislator_id,
+                          start,
+                          end,
+                          only_relevant_words = False,
+                          orw_list = irrelevant_words,
+                          phrase_size = 1):
+      wordlist = sunlight.capitolwords.phrases(entity_type = 'legislator',
+                                               entity_value = legislator_id,
+                                               start_date = start,
+                                               end_date = end,
+                                               n = phrase_size,
+                                               sort = 'count desc')
+      words[]
+      if only_relevant_words == False:
+          for item in wordlist:
+              words.append(item['ngram'].encode("utf-8"))
+      else:
+          for item in wordlist:
+            if item['ngram'] not in orw_list:
+                words.append(item['ngram'].encode("utf-8"))
+      return words
+      
+  """this is an example of how to create a dictionary of word counts, 
+  using the words themselves as the keys"""
+  january_counts = counts_by_month('201501',True, irrelevant_words)
+  january_zipped = dict(zip(january, january_counts))
+  
+  """This prints out a formatted list of words with associated frequency counts"""
+  
+  """the length of the longest word is the minimum number of spaces the count
+  will be right-aligned by when printed"""
+  longest_word = max(len(word) for word in january)
+  counts_ex = open('counts.txt','w+')
+  for i in range(0,len*january)):
+    """formatting is the number of additional spaces necessary to keep the
+    counts aligned, based on the length of the current word"""
+    formatting = longest_word - len(january[i])
+    counts_ex.write(january[i])
+    """In Python 2, a * after a % in a string allows a formatting variable to
+    be passed along with the variable it is formatting, as opposed to
+    specifying the value within the string, e.g., "%10s \n"""
+    counts_ex.write("%*s /n" % ((longest_word+formatting),january_counts[i]))
+  counts_ex.close()
+  
+              
