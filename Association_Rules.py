@@ -12,15 +12,18 @@ import Orange
 #save the basket file in a data table the association rules functions can use
 data = Orange.data.Table("Phrases_2015.basket")
 
-"""function that generates the set association rules for given constraints, in
-this case support = 0.4.
 
-Next, these rules are written to another text file for exploration
- and interpretation.
-"""
+
+
+"""function that generates the set association rules for given constraints, in
+this case support = 0.4."""
 rules = Orange.associate.AssociationRulesSparseInducer(data,
                                                        support = 0.4)
 
+""""
+Next, these rules are written to another text file for exploration
+ and interpretation.
+"""
 rules_file = open('rules_2015.txt','w+')
                                                        
 for item in rules:
@@ -37,7 +40,6 @@ itemsets = inducer.get_itemsets(data)
 """The following section provides another text file with automatically 
 generated examples of basic interpretations of some of the association rules.
 """                                                
-
 interpretation = []
 for item in rules:
     interpretation.append([item.support,item.confidence,
